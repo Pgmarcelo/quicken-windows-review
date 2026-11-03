@@ -9,6 +9,8 @@ A reusable agent skill for Quicken Classic for Windows. It opens Quicken, create
 - Investments, concentration, missing cost records and valuation limits.
 - Net worth, foreign currencies and contingent compensation.
 - Plain-language recommendations, rounded headlines and exact details.
+- Detailed action checklists with suggested timing, practical steps, expected benefit and a clear completion check.
+- Account-by-account classification, currency, withdrawal-access and income-label checks; recommendations remain read-only.
 
 Every full review includes an interactive dashboard, a script-free preview, calculation data, an evidence manifest and a downloadable report package. The skill is region-neutral: use the currency established by Quicken or the reports and confirm tax jurisdiction when relevant.
 
@@ -31,6 +33,7 @@ This repository contains reusable instructions only, with no real financial expo
 - `references/desktop-export.md`: desktop export workflow.
 - `references/exports.md`: supported exports and intake.
 - `references/analysis.md`: calculations and accounting rules.
+- `references/account-classification.md`: account purpose, display-group, currency, access and transaction-label checks.
 - `references/report-dashboard.md`: report/dashboard format and validation.
 
 Not affiliated with or endorsed by Quicken.

@@ -19,6 +19,8 @@ Record source filename/sheet/row or QIF record, export scope, transaction range,
 
 Reconcile transaction totals with report totals and balances/holdings with Quicken snapshots. Record expected amount, calculated amount, difference, and explanation. Choose and disclose a tolerance appropriate to precision; investigate unexplained material differences. Label affected results provisional and continue unaffected sections. Never silently alter data to force agreement.
 
+For every review, check account classifications using [references/account-classification.md](references/account-classification.md). A full review covers the account inventory; a narrow review covers relevant accounts and identifies the rest as unassessed. Distinguish Quicken account type/display grouping from the real product, tax treatment, investment mix, and access to money. Give account-by-account recommendations, including “keep as is” or “unconfirmed” where appropriate. Do not apply account, tax-setting, or transaction changes as part of the review.
+
 ## Review the full picture
 
 1. **Spending and cash flow:** category trends, recurring costs, one-off purchases, irregular annual costs, income reliability, savings capacity, upcoming obligations, and liquidity. Show economic spending and available cash separately.
@@ -38,7 +40,8 @@ Lead with the most consequential findings and confidence limits. Include:
 - Coverage and reconciliation status, including dates, reporting-currency conversion basis, and missing data.
 - A compact scorecard: income, spending, available cash, liquid reserve, debt, investment value, net worth; mark unavailable metrics explicitly.
 - Findings for spending, debt, investments, and net worth tied to source locations and reproducible calculations.
-- A prioritized action table: opportunity, evidence, estimated benefit/timeframe, assumptions, effort, and next step. Include only justified actions; do not force a quota.
+- Detailed prioritized actions following [references/report-dashboard.md](references/report-dashboard.md): why and evidence, suggested timing, prerequisites, ordered execution steps, estimated benefit and assumptions, and a clear “finished when” check. Use these checklists for narrow reviews too, scaled to scope. Include only justified actions; do not force a quota.
+- Account-classification findings: current setup, proposed purpose/group, confidence and missing evidence, withdrawal restrictions, currency/value date, and safe steps to verify proposed changes. Distinguish proposals from changes actually made.
 - A short list of missing inputs that would change decisions and a practical next review checkpoint.
 
 Use deterministic calculations for totals and forecasts. Save requested deliverables in the user's chosen output folder. Distinguish completed analysis from proposed actions, and calculations from verified financial facts. A review never implies authorization to execute its recommendations.
