@@ -1,0 +1,21 @@
+# Local financial data and generated review artifacts
+work/
+outputs/
+*.qdf
+*.QDF
+*.qdf-backup
+*.QDF-backup
+*.qif
+*.QIF
+*.qxf
+*.QXF
+*.qfx
+*.QFX
+*.ofx
+*.OFX
+financial-review-*.txt
+financial-dashboard-*.html
+dashboard-preview-*.html
+review-calculations-*.json
+review-manifest-*.json
+*.zip
