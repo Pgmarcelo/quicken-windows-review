@@ -4,13 +4,13 @@ An invocation to run the review authorizes opening the installed Quicken app, na
 
 Use the available computer-use skill and follow its current app-selection, observation, input, and recovery instructions. Discover the app/window each session rather than storing window IDs or screen coordinates. Use the current Quicken file. If several candidate files/windows exist, resolve from context or ask which one. For a locked desktop, authentication, or file password, ask the user to handle that step; do not automate authentication.
 
-Default review: last 12 complete months, current month-to-date separately, and balances/holdings as of today (America/Toronto). Announce these assumptions and continue without a setup questionnaire. For example, on November 3, 2026 the complete period is November 1, 2025 through October 31, 2026. Ask goal/risk/tax questions only when needed for decisions, not to block collection or descriptive analysis.
+Default review: last 12 complete months, current month-to-date separately, and balances/holdings as of today in the active client's time zone. Announce these assumptions and continue without a setup questionnaire. Ask goal/risk/tax questions only when needed for decisions, not to block collection or descriptive analysis.
 
 Create a dated run folder in outputs for exports and final findings; keep intermediate parsing work in work. Use fresh descriptive filenames to avoid overwrites. Record the open file title, report name, filters, period, currency, and export timestamp in a manifest. Avoid saving changes over the user's saved report definitions.
 
 Collect available evidence in this order, adapting to the actual edition:
 
-1. Net Worth and/or Account Balances snapshot, in CAD, with account coverage recorded. Identify separate/excluded accounts, unvested compensation, and nonzero hidden accounts without changing their settings.
+1. Net Worth and/or Account Balances snapshot, in the reporting currency, with account coverage recorded. Identify separate/excluded accounts, unvested compensation, and nonzero hidden accounts without changing their settings.
 2. Detailed banking/transaction export or QIF covering all relevant accounts and categories, including split/transfer information. Supplement with income/expense by month for reconciliation. Use actual report controls to confirm dates rather than relying on remembered defaults.
 3. Investment holdings/portfolio value by account and security; prices and currencies; investment performance for the same period if available.
 4. Loan/mortgage information and upcoming bills/income sufficient for cash planning. Read terms available in Quicken; request only genuinely missing APR, renewal, payment, or provider information after supported analysis.

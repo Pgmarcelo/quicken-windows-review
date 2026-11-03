@@ -2,7 +2,7 @@
 
 ## Recommended first review package
 
-Request the smallest package needed; a useful default is the last 12 complete months plus current month-to-date, with snapshots at a common date. A partial package can still support a partial review.
+Collect the smallest package needed; a useful default is the last 12 complete months plus current month-to-date, with snapshots at a common date. A partial package can still support a partial review.
 
 | Evidence | Purpose | Important fields |
 |---|---|---|
@@ -14,7 +14,7 @@ Request the smallest package needed; a useful default is the last 12 complete mo
 | Debt statements or supplied terms | Payoff projections | Balance/date, APR, minimum, compounding, renewal/maturity, prepayment restrictions |
 | Budget and scheduled obligations, if available | Forward cash planning | Budget vs actual, due dates, irregular costs, planned contributions |
 
-Ask for missing data only when relevant. Mortgage principal and interest may require statements. Investment fees, fund holdings, pension details, tax room, and RSU vesting terms may need provider documents. Exported Quicken cost basis is not automatically a verified Canadian tax ACB.
+Ask for missing data only when relevant. Mortgage principal and interest may require statements. Investment fees, fund holdings, pension details, tax room, and RSU vesting terms may need provider documents. Exported Quicken cost basis is not automatically a verified tax cost basis under the applicable jurisdiction's rules.
 
 ## Windows export route
 
@@ -29,6 +29,6 @@ Official source, checked November 3, 2026: [Quicken Windows: Exporting data](htt
 
 Inspect actual structure before selecting a parser. Reports can contain title rows, repeated headers, subtotal/grand-total rows, blank separators, formatted negatives, and mixed currencies. Do not sum both detail and subtotals. Preserve account context when unpivoting grouped reports.
 
-QIF can contain multiple record types/accounts, split detail, transfers, opening balances, security actions, prices, and locale-dependent dates. Preserve record identifiers and unknown action codes. Handle transaction parents and splits as alternatives for aggregation, not additive records. Investment actions require action-specific semantics; an ordinary cash-transaction parser is insufficient. If parsing coverage is incomplete, request report exports for affected sections.
+QIF can contain multiple record types/accounts, split detail, transfers, opening balances, security actions, prices, and locale-dependent dates. Preserve record identifiers and unknown action codes. Handle transaction parents and splits as alternatives for aggregation, not additive records. Investment actions require action-specific semantics; an ordinary cash-transaction parser is insufficient. If parsing coverage is incomplete, create report exports for affected sections; ask the user only when access is blocked.
 
 Do not automatically delete candidate duplicates: legitimate identical purchases exist. Prefer stable IDs if present; otherwise flag matching account/date/amount/payee/split fingerprints and investigate export overlap. Record exclusions and reasons. A transaction date is not proof of settlement, vesting, or valuation date.

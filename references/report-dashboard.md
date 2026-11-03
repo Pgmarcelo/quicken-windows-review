@@ -25,7 +25,7 @@ Use the established calm design: cream page, dark green heading area, white roun
 
 Use this order, adapting when evidence is missing:
 
-1. **Your money, made clear:** snapshot date, Canada/CAD or actual jurisdiction/currency, exact spending period, and notice that figures are rounded.
+1. **Your money, made clear:** snapshot date, reporting currency and tax jurisdiction when known, exact spending period, and notice that figures are rounded.
 2. **Financial picture:** recorded net worth, investment value, mortgage/debt balance and accessible-bank-cash starting point. Explain each number; never label unverified available cash as spendable. Show exact amounts in expandable details.
 3. **Main finding:** the most consequential supported takeaway. A reported category surplus must be distinguished from cash after loan principal, capital purchases, savings contributions and transfers.
 4. **What you own and owe:** show assets, debts and net worth with proportional bars; describe home concentration when supported. State which property values are estimates.
@@ -33,15 +33,15 @@ Use this order, adapting when evidence is missing:
 6. **Debt and safety cushion:** recorded payment, balance/rate, estimated home equity, early-payment checks, card data gaps and accessibility of reserves. Separate bank cash, investment-account cash, foreign assets, restricted accounts and unvested compensation.
 7. **Investments:** recorded value, security-type breakdown, concentration and material data-quality issues. Quicken classifications are not fund look-through allocation. Explain placeholders and missing purchase costs beside the figures; withhold unsupported return/tax-gain claims.
 8. **Next steps:** prioritized actions with evidence, a practical next step, and estimated benefit or “not yet known.” Do not populate a fixed number of recommendations with filler.
-9. **Savings calculator:** choose supported, nonoverlapping spending groups and clearly labelled percentage-reduction scenarios. Use the previously discussed dining and telecom defaults only if those groups still exist and are relevant; otherwise adapt the groups or show that no scenario is supported. Display annual and average monthly savings, assumptions, and exact amounts. Baseline × reduction percentage is the calculation; actual savings are not guaranteed. Keep scenario controls separate from actual Quicken records.
-10. **Money words:** short definitions for terms actually used. Examples: net worth = what you own minus what you owe; principal = loan amount paid back; interest = lender's charge; liquidity = how quickly you can access money; cost basis = recorded purchase cost used in working out a gain. Explain Canadian adjusted cost base as requiring tax-rule adjustments. Define RSUs/vesting and registered accounts if used.
+9. **Savings calculator:** choose supported, nonoverlapping spending groups and clearly labelled percentage-reduction scenarios. Choose groups from current evidence and user goals, or show that no scenario is supported. Display annual and average monthly savings, assumptions, and exact amounts. Baseline × reduction percentage is the calculation; actual savings are not guaranteed. Keep scenario controls separate from actual Quicken records.
+10. **Money words:** short definitions for terms actually used. Examples: net worth = what you own minus what you owe; principal = loan amount paid back; interest = lender's charge; liquidity = how quickly you can access money; cost basis = recorded purchase cost used in working out a gain. Explain applicable tax cost-basis adjustments when relevant. Define RSUs/vesting and tax-advantaged accounts if used.
 11. **Reliability and sources:** distinguish arithmetic checks passed from real-world facts still unverified. Include missing inputs, source report links, current authoritative guidance supporting consequential recommendations, and next review checkpoint.
 
 ## Language and numbers
 
 The reader prefers simple words. Lead with what a figure means for their choices. Explain a technical term at its first use, not only in the glossary. Avoid jargon such as “reconciliation,” “allocation,” “liability,” or “FX” without a plain explanation. Keep short paragraphs and visible next steps.
 
-Round headline figures for scanning; retain exact dollars and cents in details, table cells, accessible chart descriptions or hover labels. State CAD clearly. Distinguish recorded values, estimates, missing values and proposed scenarios. Never turn missing information into zero. Never present a partial cash bridge's remainder as a spending allowance. Do not double-count dining cuts within a broader food cut, or count a debt payment as both spending and a transfer.
+Round headline figures for scanning; retain exact amounts at the currency's supported precision in details, table cells, accessible chart descriptions or hover labels. State the reporting currency clearly. Distinguish recorded values, estimates, missing values and proposed scenarios. Never turn missing information into zero. Never present a partial cash bridge's remainder as a spending allowance. Do not double-count dining cuts within a broader food cut, or count a debt payment as both spending and a transfer.
 
 ## HTML and delivery checks
 
