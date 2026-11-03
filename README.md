@@ -10,7 +10,7 @@ A reusable agent skill for Quicken Classic for Windows. It opens Quicken, create
 - Net worth, foreign currencies and contingent compensation.
 - Plain-language recommendations, rounded headlines and exact details.
 
-Every full review includes an interactive dashboard, a script-free preview, calculation data, an evidence manifest and a downloadable report package. Canada and CAD are defaults; other jurisdictions and currencies can be requested.
+Every full review includes an interactive dashboard, a script-free preview, calculation data, an evidence manifest and a downloadable report package. The skill is region-neutral: use the currency established by Quicken or the reports and confirm tax jurisdiction when relevant.
 
 ## Install
 
