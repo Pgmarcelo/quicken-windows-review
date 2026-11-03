@@ -1,0 +1,6 @@
+interface:
+  display_name: "Quicken Windows Financial Review"
+  short_description: "Open Quicken and create a clear financial dashboard"
+  default_prompt: "Use $quicken-windows-review to open Quicken Classic for Windows, export the required reports, and run a financial review in CAD, covering spending, debt, investments, net worth, and prioritized improvements, with a plain-language written review and HTML dashboard."
+
+
